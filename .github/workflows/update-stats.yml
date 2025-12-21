@@ -1,0 +1,97 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    # Runs daily at 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows manual trigger
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  update-readme:
+    name: Update README with GitHub Stats
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          
+      - name: Install dependencies
+        run: |
+          pip install requests pygithub
+          
+      - name: Update README with latest stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+        run: |
+          python << 'EOF'
+          import os
+          import re
+          from datetime import datetime
+          
+          username = os.environ.get('GITHUB_USERNAME', 'YOUR_USERNAME')
+          readme_path = 'README.md'
+          
+          # Read current README
+          with open(readme_path, 'r', encoding='utf-8') as f:
+              readme_content = f.read()
+          
+          # Update last commit timestamp
+          current_time = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')
+          
+          # Replace placeholder with actual username if needed
+          readme_content = readme_content.replace('YOUR_USERNAME', username)
+          
+          # Add update timestamp comment (hidden)
+          update_comment = f'<!-- Last updated: {current_time} -->\n'
+          if 'Last updated:' not in readme_content:
+              readme_content = update_comment + readme_content
+          else:
+              readme_content = re.sub(
+                  r'<!-- Last updated: .*? -->',
+                  f'<!-- Last updated: {current_time} -->',
+                  readme_content
+              )
+          
+          # Write back
+          with open(readme_path, 'w', encoding='utf-8') as f:
+              f.write(readme_content)
+          
+          print(f"✅ README updated at {current_time}")
+          EOF
+          
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git diff --staged --quiet || (git commit -m "🔄 Auto-update GitHub stats [skip ci]" && git push)
+          
+      - name: Generate contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          
+      - name: Push snake to output branch
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          destination_dir: output
+          keep_files: false
+
