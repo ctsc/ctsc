@@ -12,38 +12,24 @@
     <!-- Add your about me content here -->
   </p>
   
-  <img src="code.gif" alt="Code" width="200" />
+  <p align="center">
+    <img src="code.gif" alt="Code" width="200" />
+  </p>
   
   <!-- Animated Header -->
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=700&lines=Hey+there+I'm+a+developer;Who+lifts+weights" alt="Typing SVG" />
   
-  <img src="website.gif" alt="Website" width="150" />
+  <p align="center">
+    <img src="website.gif" alt="Website" width="200" />
+  </p>
   
 </div>
 
 ---
 
-<div align="center">
-
-## 🐱 **LIVE CODING ACTIVITY** 🐈‍⬛
-
-<div id="live-coding-status">
-  
-  <img src="fun.gif" alt="Fun" width="120" align="right" />
-  
-  <!-- Live Activity Indicator -->
-  <p align="center">
-    <img src="https://img.shields.io/badge/Status-🟢%20CODING%20NOW-00FF00?style=for-the-badge&logo=github&logoColor=000000" alt="Live Status" />
-  </p>
-  
-  <!-- Recent Activity Badge -->
-  <p align="center">
-    <img src="https://img.shields.io/github/last-commit/ctsc/ctsc?label=Last%20Commit&style=for-the-badge&color=000000&logo=git&logoColor=white" alt="Last Commit" />
-  </p>
-  
-</div>
-
-</div>
+<p align="center">
+  <img src="fun.gif" alt="Fun" width="200" />
+</p>
 
 ---
 
@@ -51,9 +37,11 @@
 
 ## 🐈 **📊 GITHUB STATS 📊** 🐱
 
+<p align="center">
+  <img src="giphy.webp" alt="Giphy" width="200" />
+</p>
+
 <div width="100%" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
-  
-  <img src="giphy.webp" alt="Giphy" width="150" align="left" />
   
   <!-- Top Languages -->
   <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ctsc&layout=compact&theme=dark&bg_color=000000&hide_border=true&title_color=00ff00&text_color=ffffff&langs_count=8" alt="Top Languages" />
@@ -76,23 +64,18 @@
 ## **Powerlifting Stats**
 
 <p align="center">
-  <img src="penguin-ie.jpg" alt="Penguin" width="100" align="left" />
-  
-  <img src="https://img.shields.io/badge/SQUAT-565%20lbs-00FF00?style=for-the-badge&logo=weight&logoColor=000000" alt="Squat PR" />
-  <img src="https://img.shields.io/badge/BENCH-360%20lbs-00FF00?style=for-the-badge&logo=weight&logoColor=000000" alt="Bench PR" />
-  <img src="https://img.shields.io/badge/DEADLIFT-625%20lbs-00FF00?style=for-the-badge&logo=weight&logoColor=000000" alt="Deadlift PR" />
+  <img src="penguin-pengu.webp" alt="Penguin" width="150" />
+  <img src="ie.jpg" alt="IE" width="150" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/TOTAL-1%2C550%20lbs-00FF00?style=for-the-badge&logo=weight&logoColor=000000" alt="Total" />
+  <img src="https://img.shields.io/badge/SQUAT-565%20lbs-87CEEB?style=for-the-badge&logo=weight&logoColor=000000" alt="Squat PR" />
+  <img src="https://img.shields.io/badge/BENCH-360%20lbs-87CEEB?style=for-the-badge&logo=weight&logoColor=000000" alt="Bench PR" />
+  <img src="https://img.shields.io/badge/DEADLIFT-625%20lbs-87CEEB?style=for-the-badge&logo=weight&logoColor=000000" alt="Deadlift PR" />
 </p>
 
 <p align="center">
-  
-  **SQUAT** `565 lbs` | **BENCH** `360 lbs` | **DEADLIFT** `625 lbs`
-  
-  **TOTAL** `1,550 lbs`
-  
+  <img src="https://img.shields.io/badge/TOTAL-1%2C550%20lbs-87CEEB?style=for-the-badge&logo=weight&logoColor=000000" alt="Total" />
 </p>
 
 </div>
@@ -123,5 +106,9 @@
   
   <!-- Footer with animated text -->
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=2000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=Thanks+for+visiting!+%F0%9F%98%80+%F0%9F%90%B1;Keep+grinding!+%F0%9F%8F%8B%EF%B8%8F+%F0%9F%90%88;Code%2C%20Lift%2C%20Game%2C%20Repeat+%F0%9F%90%BE" alt="Footer" />
+  
+  <p align="center">
+    <img src="welcome-fire.gif" alt="Welcome Fire" width="150" />
+  </p>
   
 </div>
