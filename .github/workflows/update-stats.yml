@@ -30,7 +30,7 @@ jobs:
         run: |
           pip install requests pygithub
           
-      - name: Update README with latest stats
+      - name: Update README with latest stats and daily quote
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: ${{ github.repository_owner }}
@@ -38,6 +38,7 @@ jobs:
           python << 'EOF'
           import os
           import re
+          import requests
           from datetime import datetime
           
           username = os.environ.get('GITHUB_USERNAME', 'YOUR_USERNAME')
@@ -46,6 +47,29 @@ jobs:
           # Read current README
           with open(readme_path, 'r', encoding='utf-8') as f:
               readme_content = f.read()
+          
+          # Fetch daily quote
+          try:
+              quote_response = requests.get('https://api.quotable.io/random', timeout=10)
+              if quote_response.status_code == 200:
+                  quote_data = quote_response.json()
+                  quote_text = quote_data.get('content', '')
+                  quote_author = quote_data.get('author', 'Unknown')
+                  daily_quote = f'"{quote_text}" - {quote_author}'
+              else:
+                  daily_quote = '"The only way to do great work is to love what you do." - Steve Jobs'
+          except Exception as e:
+              print(f"Error fetching quote: {e}")
+              daily_quote = '"Code is like humor. When you have to explain it, it\'s bad." - Cory House'
+          
+          # Update daily quote in README
+          quote_pattern = r'<em id="daily-quote">.*?</em>'
+          new_quote_html = f'<em id="daily-quote">{daily_quote}</em>'
+          if re.search(quote_pattern, readme_content):
+              readme_content = re.sub(quote_pattern, new_quote_html, readme_content)
+          else:
+              # Fallback: replace loading text
+              readme_content = readme_content.replace('Loading quote...', daily_quote)
           
           # Update last commit timestamp
           current_time = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')
@@ -69,6 +93,7 @@ jobs:
               f.write(readme_content)
           
           print(f"✅ README updated at {current_time}")
+          print(f"✅ Daily quote updated: {daily_quote[:50]}...")
           EOF
           
       - name: Commit and push changes
