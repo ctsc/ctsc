@@ -4,6 +4,7 @@
   <h1 align="center">
     <img src="welcome-fire.gif" alt="Welcome" width="50" height="50" />
     Carter Tierney
+    <img src="ie.jpg" alt="IE" width="50" height="50" />
   </h1>
   
   <!-- About Me Section -->
@@ -14,14 +15,11 @@
   
   <p align="center">
     <img src="code.gif" alt="Code" width="200" />
+    <img src="website.gif" alt="Website" width="200" />
   </p>
   
   <!-- Animated Header -->
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=700&lines=Hey+there+I'm+a+developer;Who+lifts+weights" alt="Typing SVG" />
-  
-  <p align="center">
-    <img src="website.gif" alt="Website" width="200" />
-  </p>
   
 </div>
 
@@ -63,16 +61,20 @@
 
 ## **Powerlifting Stats**
 
-<p align="center">
-  <img src="penguin-pengu.webp" alt="Penguin" width="150" />
-  <img src="ie.jpg" alt="IE" width="150" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/SQUAT-565%20lbs-87CEEB?style=for-the-badge&logo=weight&logoColor=000000" alt="Squat PR" />
-  <img src="https://img.shields.io/badge/BENCH-360%20lbs-87CEEB?style=for-the-badge&logo=weight&logoColor=000000" alt="Bench PR" />
-  <img src="https://img.shields.io/badge/DEADLIFT-625%20lbs-87CEEB?style=for-the-badge&logo=weight&logoColor=000000" alt="Deadlift PR" />
-</p>
+<table>
+  <tr>
+    <td align="left" width="200">
+      <img src="penguin-pengu.webp" alt="Penguin" width="150" />
+    </td>
+    <td align="center">
+      <p align="center">
+        <img src="https://img.shields.io/badge/SQUAT-565%20lbs-87CEEB?style=for-the-badge&logo=weight&logoColor=000000" alt="Squat PR" />
+        <img src="https://img.shields.io/badge/BENCH-360%20lbs-87CEEB?style=for-the-badge&logo=weight&logoColor=000000" alt="Bench PR" />
+        <img src="https://img.shields.io/badge/DEADLIFT-625%20lbs-87CEEB?style=for-the-badge&logo=weight&logoColor=000000" alt="Deadlift PR" />
+      </p>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <img src="https://img.shields.io/badge/TOTAL-1%2C550%20lbs-87CEEB?style=for-the-badge&logo=weight&logoColor=000000" alt="Total" />
@@ -88,11 +90,11 @@
 
 <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
   
-  <a href="https://linkedin.com/in/ctsc">
+  <a href="https://www.linkedin.com/in/carter-tierney/">
     <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   
-  <a href="mailto:your.email@example.com">
+  <a href="mailto:cartertierney0@gmail.com">
     <img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   
@@ -107,8 +109,5 @@
   <!-- Footer with animated text -->
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=2000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=Thanks+for+visiting!+%F0%9F%98%80+%F0%9F%90%B1;Keep+grinding!+%F0%9F%8F%8B%EF%B8%8F+%F0%9F%90%88;Code%2C%20Lift%2C%20Game%2C%20Repeat+%F0%9F%90%BE" alt="Footer" />
   
-  <p align="center">
-    <img src="welcome-fire.gif" alt="Welcome Fire" width="150" />
-  </p>
   
 </div>
