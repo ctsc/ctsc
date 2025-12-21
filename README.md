@@ -2,16 +2,22 @@
   
   <!-- Header with Name and Welcome GIF -->
   <h1 align="center">
-    <img src="welcome-fire.gif" alt="Welcome" width="50" height="50" />
+    <img src="welcome-fire.gif" alt="Welcome" width="150" height="150" />
     Carter Tierney
-    <img src="ie.jpg" alt="IE" width="50" height="50" />
+    <img src="ie.jpg" alt="IE" width="150" height="150" />
   </h1>
   
   <!-- About Me Section -->
   <h2>About Me</h2>
-  <p>
-    <!-- Add your about me content here -->
-  </p>
+  <ul>
+    <li>Masters CS student at GSU in Atl</li>
+    <li>Bachelors at GSU Dec 2025</li>
+    <li>Dual enrolled at KSU</li>
+    <li>Competitive weightlifting (will be the strongest software engineer in America)</li>
+    <li>I have 5 siblings</li>
+    <li>New York Jets #1 Fan</li>
+    <li>Crunchyroll Background Binge Demon</li>
+  </ul>
   
   <p align="center">
     <img src="code.gif" alt="Code" width="200" />
