@@ -1,8 +1,23 @@
 <div align="center">
   
+  <!-- Header with Name and Welcome GIF -->
+  <h1 align="center">
+    <img src="welcome-fire.gif" alt="Welcome" width="50" height="50" />
+    Carter Tierney
+  </h1>
+  
+  <!-- About Me Section -->
+  <h2>About Me</h2>
+  <p>
+    <!-- Add your about me content here -->
+  </p>
+  
+  <img src="code.gif" alt="Code" width="200" />
+  
   <!-- Animated Header -->
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=700&lines=Hey+there+I'm+a+developer;Who+lifts+weights" alt="Typing SVG" />
   
+  <img src="website.gif" alt="Website" width="150" />
   
 </div>
 
@@ -13,6 +28,8 @@
 ## 🐱 **LIVE CODING ACTIVITY** 🐈‍⬛
 
 <div id="live-coding-status">
+  
+  <img src="fun.gif" alt="Fun" width="120" align="right" />
   
   <!-- Live Activity Indicator -->
   <p align="center">
@@ -36,6 +53,8 @@
 
 <div width="100%" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
   
+  <img src="giphy.webp" alt="Giphy" width="150" align="left" />
+  
   <!-- Top Languages -->
   <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ctsc&layout=compact&theme=dark&bg_color=000000&hide_border=true&title_color=00ff00&text_color=ffffff&langs_count=8" alt="Top Languages" />
   
@@ -54,56 +73,27 @@
 
 <div align="center">
 
-## **Coding Time Stats**
-
-<div style="display: flex; flex-direction: column; align-items: center; gap: 15px;">
-  
-  <!-- Time of Day Ranges -->
-  <p align="center">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ctsc&theme=github_dark" alt="Productive Time" />
-  </p>
-  
-  
-</div>
-
-</div>
-
----
-
-<div align="center">
-
 ## **Powerlifting Stats**
 
-<div style="display: flex; flex-direction: column; align-items: center; gap: 15px;">
+<p align="center">
+  <img src="penguin-ie.jpg" alt="Penguin" width="100" align="left" />
   
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; width: 100%; max-width: 800px;">
-    
-    <div style="background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%); padding: 20px; border-radius: 10px; border: 2px solid #00ff00; box-shadow: 0 4px 15px rgba(0, 255, 0, 0.2); text-align: center;">
-      <div style="font-size: 12px; color: #888; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 8px;">Squat</div>
-      <div style="font-size: 32px; font-weight: bold; color: #00ff00; margin-bottom: 4px;">565</div>
-      <div style="font-size: 14px; color: #aaa;">lbs</div>
-    </div>
-    
-    <div style="background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%); padding: 20px; border-radius: 10px; border: 2px solid #00ff00; box-shadow: 0 4px 15px rgba(0, 255, 0, 0.2); text-align: center;">
-      <div style="font-size: 12px; color: #888; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 8px;">Bench</div>
-      <div style="font-size: 32px; font-weight: bold; color: #00ff00; margin-bottom: 4px;">360</div>
-      <div style="font-size: 14px; color: #aaa;">lbs</div>
-    </div>
-    
-    <div style="background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%); padding: 20px; border-radius: 10px; border: 2px solid #00ff00; box-shadow: 0 4px 15px rgba(0, 255, 0, 0.2); text-align: center;">
-      <div style="font-size: 12px; color: #888; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 8px;">Deadlift</div>
-      <div style="font-size: 32px; font-weight: bold; color: #00ff00; margin-bottom: 4px;">625</div>
-      <div style="font-size: 14px; color: #aaa;">lbs</div>
-    </div>
-    
-  </div>
+  <img src="https://img.shields.io/badge/SQUAT-565%20lbs-00FF00?style=for-the-badge&logo=weight&logoColor=000000" alt="Squat PR" />
+  <img src="https://img.shields.io/badge/BENCH-360%20lbs-00FF00?style=for-the-badge&logo=weight&logoColor=000000" alt="Bench PR" />
+  <img src="https://img.shields.io/badge/DEADLIFT-625%20lbs-00FF00?style=for-the-badge&logo=weight&logoColor=000000" alt="Deadlift PR" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/TOTAL-1%2C550%20lbs-00FF00?style=for-the-badge&logo=weight&logoColor=000000" alt="Total" />
+</p>
+
+<p align="center">
   
-  <div style="background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%); padding: 15px 30px; border-radius: 10px; border: 2px solid #00ff00; box-shadow: 0 4px 15px rgba(0, 255, 0, 0.2); text-align: center; margin-top: 10px;">
-    <div style="font-size: 12px; color: #888; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 5px;">Total</div>
-    <div style="font-size: 28px; font-weight: bold; color: #00ff00;">1,550 lbs</div>
-  </div>
+  **SQUAT** `565 lbs` | **BENCH** `360 lbs` | **DEADLIFT** `625 lbs`
   
-</div>
+  **TOTAL** `1,550 lbs`
+  
+</p>
 
 </div>
 
