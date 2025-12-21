@@ -3,11 +3,6 @@
   <!-- Animated Header -->
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=700&lines=Hey+there+I'm+a+developer;Who+lifts+weights" alt="Typing SVG" />
   
-  <!-- Daily Quote -->
-  <p align="center">
-    <em id="daily-quote">Loading quote...</em>
-  </p>
-  <!-- Quote will be updated daily by GitHub Actions -->
   
 </div>
 
@@ -41,9 +36,7 @@
 
 <div width="100%" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
   
-  <!-- Main Stats -->
-  <img height="200em" src="https://github-readme-stats.vercel.app/api?username=ctsc&show_icons=true&theme=dark&bg_color=000000&hide_border=true&title_color=00ff00&icon_color=00ff00&text_color=ffffff&hide=commits&count_private=true" alt="GitHub Stats" />
-  
+  <!-- Top Languages -->
   <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ctsc&layout=compact&theme=dark&bg_color=000000&hide_border=true&title_color=00ff00&text_color=ffffff&langs_count=8" alt="Top Languages" />
   
 </div>
@@ -70,28 +63,6 @@
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ctsc&theme=github_dark" alt="Productive Time" />
   </p>
   
-  <!-- Day of Week Stats (Sun-Sat) -->
-  <p align="center">
-    <strong>Most Active Days of Week:</strong>
-  </p>
-  <p align="center">
-    <code style="background: #1a1a1a; padding: 8px 15px; border-radius: 5px; font-size: 14px; display: block; text-align: center;">
-      Sun | Mon | Tue | Wed | Thu | Fri | Sat
-    </code>
-  </p>
-  
-  <!-- Time Ranges -->
-  <p align="center">
-    <strong>Time of Day:</strong>
-  </p>
-  <p align="center">
-    <code style="background: #1a1a1a; padding: 8px 15px; border-radius: 5px; font-size: 14px; display: block; text-align: center;">
-      Morning (6AM-12PM)<br/>
-      Afternoon (12PM-6PM)<br/>
-      Night (6PM-12AM)<br/>
-      Overnight (12AM-6AM)
-    </code>
-  </p>
   
 </div>
 
@@ -103,15 +74,34 @@
 
 ## **Powerlifting Stats**
 
-<div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+<div style="display: flex; flex-direction: column; align-items: center; gap: 15px;">
   
-  <p align="center">
-    <code style="background: #1a1a1a; padding: 8px 15px; border-radius: 5px; font-size: 14px; display: block; text-align: center;">
-      Squat PR: 565lbs<br/>
-      Bench PR: 360lbs<br/>
-      Deadlift PR: 625lbs
-    </code>
-  </p>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; width: 100%; max-width: 800px;">
+    
+    <div style="background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%); padding: 20px; border-radius: 10px; border: 2px solid #00ff00; box-shadow: 0 4px 15px rgba(0, 255, 0, 0.2); text-align: center;">
+      <div style="font-size: 12px; color: #888; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 8px;">Squat</div>
+      <div style="font-size: 32px; font-weight: bold; color: #00ff00; margin-bottom: 4px;">565</div>
+      <div style="font-size: 14px; color: #aaa;">lbs</div>
+    </div>
+    
+    <div style="background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%); padding: 20px; border-radius: 10px; border: 2px solid #00ff00; box-shadow: 0 4px 15px rgba(0, 255, 0, 0.2); text-align: center;">
+      <div style="font-size: 12px; color: #888; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 8px;">Bench</div>
+      <div style="font-size: 32px; font-weight: bold; color: #00ff00; margin-bottom: 4px;">360</div>
+      <div style="font-size: 14px; color: #aaa;">lbs</div>
+    </div>
+    
+    <div style="background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%); padding: 20px; border-radius: 10px; border: 2px solid #00ff00; box-shadow: 0 4px 15px rgba(0, 255, 0, 0.2); text-align: center;">
+      <div style="font-size: 12px; color: #888; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 8px;">Deadlift</div>
+      <div style="font-size: 32px; font-weight: bold; color: #00ff00; margin-bottom: 4px;">625</div>
+      <div style="font-size: 14px; color: #aaa;">lbs</div>
+    </div>
+    
+  </div>
+  
+  <div style="background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%); padding: 15px 30px; border-radius: 10px; border: 2px solid #00ff00; box-shadow: 0 4px 15px rgba(0, 255, 0, 0.2); text-align: center; margin-top: 10px;">
+    <div style="font-size: 12px; color: #888; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 5px;">Total</div>
+    <div style="font-size: 28px; font-weight: bold; color: #00ff00;">1,550 lbs</div>
+  </div>
   
 </div>
 
