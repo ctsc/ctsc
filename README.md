@@ -11,13 +11,14 @@
   <!-- About Me Section -->
   <h2>About Me</h2>
   <ul>
-    <li>Masters CS student at GSU in Atl</li>
+    <li> Master's CS student at GSU in Atl</li>
     <li>Bachelors at GSU Dec 2025</li>
     <li>Dual enrolled at KSU</li>
-    <li>Competitive weightlifting (will be the strongest software engineer in America)</li>
+    <li>Passionate for learning new tech stacks as well as mastering current ones</li>
+    <li>Competitive weightlifting (will be the strongest Python user)</li>
     <li>I have 5 siblings</li>
     <li>New York Jets #1 Fan</li>
-    <li>Crunchyroll Background Binge Demon</li>
+    <li>Crunchyroll Background Binge Enthusiast</li>
   </ul>
   
   <p align="center">
