@@ -13,7 +13,6 @@
   <ul>
     <li> Master's CS student at GSU in Atl</li>
     <li>Bachelors at GSU Dec 2025</li>
-    <li>Dual enrolled at KSU</li>
     <li>Passionate for learning new tech stacks as well as mastering current ones</li>
     <li>Competitive weightlifting (will be the strongest Python user)</li>
     <li>I have 5 siblings</li>
@@ -47,12 +46,6 @@
   <img src="giphy.webp" alt="Giphy" width="200" />
 </p>
 
-<div width="100%" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
-  
-  <!-- Top Languages -->
-  <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ctsc&layout=compact&theme=dark&bg_color=000000&hide_border=true&title_color=00ff00&text_color=ffffff&langs_count=8" alt="Top Languages" />
-  
-</div>
 
 <!-- Detailed Stats Cards -->
 <div style="margin-top: 20px;">
