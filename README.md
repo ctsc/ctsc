@@ -13,7 +13,7 @@
   <ul>
     <li> Master's CS student at GSU in Atl</li>
     <li>Bachelors at GSU Dec 2025</li>
-    <li>Passionate for learning new tech stacks as well as mastering current ones</li>
+    <li>Love learning new things</li>
     <li>Competitive weightlifting (will be the strongest Python user)</li>
     <li>I have 5 siblings</li>
     <li>New York Jets #1 Fan</li>
