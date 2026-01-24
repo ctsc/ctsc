@@ -12,12 +12,11 @@
   <h2>About Me</h2>
   <ul>
     <li> Master's CS student at GSU in Atl</li>
-    <li>Bachelors at GSU Dec 2025</li>
     <li>Love learning new things</li>
     <li>Competitive weightlifting (will be the strongest Python user)</li>
     <li>I have 5 siblings</li>
     <li>New York Jets #1 Fan</li>
-    <li>Crunchyroll Background Binge Enthusiast</li>
+    <li>Crunchyroll Enthusiast</li>
   </ul>
   
   <p align="center">
@@ -60,19 +59,10 @@
 
 <div align="center">
 
-## **Powerlifting Stats**
-
 <table>
   <tr>
     <td align="left" width="200">
       <img src="penguin-pengu.webp" alt="Penguin" width="150" />
-    </td>
-    <td align="center">
-      <p align="center">
-        <img src="https://img.shields.io/badge/SQUAT-565%20lbs-87CEEB?style=for-the-badge&logo=weight&logoColor=000000" alt="Squat PR" />
-        <img src="https://img.shields.io/badge/BENCH-360%20lbs-87CEEB?style=for-the-badge&logo=weight&logoColor=000000" alt="Bench PR" />
-        <img src="https://img.shields.io/badge/DEADLIFT-625%20lbs-87CEEB?style=for-the-badge&logo=weight&logoColor=000000" alt="Deadlift PR" />
-      </p>
     </td>
   </tr>
 </table>
