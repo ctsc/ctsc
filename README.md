@@ -98,9 +98,6 @@ const carter = {
 <br/>
 
 <a href="https://github.com/ctsc">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=ctsc&show_icons=true&theme=github_dark&bg_color=0d1117&hide_border=true&icon_color=58a6ff&title_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff" alt="GitHub Stats" />
-</a>
-<a href="https://github.com/ctsc">
   <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ctsc&layout=compact&theme=github_dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&text_color=c9d1d9&langs_count=8" alt="Top Languages" />
 </a>
 
