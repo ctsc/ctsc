@@ -1,104 +1,209 @@
 <!-- Last updated: 2026-03-21 02:39:10 UTC -->
-<div align="center">
-  
-  <!-- Header with Name and Welcome GIF -->
-  <h1 align="center">
-    <img src="welcome-fire.gif" alt="Welcome" width="150" height="150" />
-    Carter Tierney
-    <img src="ie.jpg" alt="IE" width="150" height="150" />
-  </h1>
-  
-  <!-- About Me Section -->
-  <h2>About Me</h2>
-  <ul>
-    <li> Master's CS student at GSU in Atl</li>
-    <li>Love learning new things</li>
-    <li>Competitive weightlifting (will be the strongest Python user)</li>
-    <li>I have 5 siblings</li>
-    <li>New York Jets #1 Fan</li>
-    <li>Crunchyroll Enthusiast</li>
-  </ul>
-  
-  <p align="center">
-    <img src="code.gif" alt="Code" width="200" />
-    <img src="website.gif" alt="Website" width="200" />
-  </p>
-  
-  <!-- Animated Header -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=700&lines=Hey+there+I'm+a+developer;Who+lifts+weights" alt="Typing SVG" />
-  
-</div>
-
----
-
-<p align="center">
-  <img src="fun.gif" alt="Fun" width="200" />
-</p>
-
----
 
 <div align="center">
 
-## 🐈 **📊 GITHUB STATS 📊** 🐱
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                        HEADER                                  -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
 
-<p align="center">
-  <img src="giphy.webp" alt="Giphy" width="200" />
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=220&section=header&text=Carter%20Tierney&fontSize=55&fontColor=58a6ff&fontAlignY=35&desc=CS%20Grad%20Student%20%E2%80%A2%20Developer%20%E2%80%A2%20Powerlifter&descSize=18&descColor=8b949e&descAlignY=55&animation=fadeIn" width="100%" />
 
+<br/>
 
-<!-- Detailed Stats Cards -->
-<div style="margin-top: 20px;">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ctsc&theme=github_dark" alt="Repos Per Language" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ctsc&theme=github_dark" alt="Most Commit Language" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ctsc&theme=github_dark" alt="Productive Time" />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=%24+whoami;carter+%7C+grad+student+%7C+lifter+%7C+dev" alt="Typing SVG" />
+
+<br/>
+
+<a href="https://www.linkedin.com/in/carter-tierney/">
+  <img src="https://img.shields.io/badge/-carter--tierney-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="mailto:cartertierney0@gmail.com">
+  <img src="https://img.shields.io/badge/-cartertierney0-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+</a>
+<img src="https://komarev.com/ghpvc/?username=ctsc&style=flat-square&color=161b22&label=visitors" alt="Profile views" />
+
 </div>
 
-</div>
+<br/>
 
----
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                      ABOUT ME                                  -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+```js
+// carter.config.js
+
+const carter = {
+    location:    "Atlanta, GA",
+    school:      "Georgia State University — M.S. Computer Science",
+    interests:   ["building things", "breaking PRs (in the gym)", "anime"],
+    funFacts: {
+        siblings:       5,
+        nflTeam:        "New York Jets 🛩️",
+        crunchyroll:    "always watching something",
+        goal:           "strongest dev who ships code"
+    }
+};
+```
 
 <div align="center">
-
 <table>
-  <tr>
-    <td align="left" width="200">
-      <img src="penguin-pengu.webp" alt="Penguin" width="150" />
-    </td>
-  </tr>
+<tr>
+<td width="50%" align="center">
+
+<img src="code.gif" width="160" />
+<br/><br/>
+<strong>writing code</strong>
+
+</td>
+<td width="50%" align="center">
+
+<img src="website.gif" width="160" />
+<br/><br/>
+<strong>shipping projects</strong>
+
+</td>
+</tr>
 </table>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/TOTAL-1%2C550%20lbs-87CEEB?style=for-the-badge&logo=weight&logoColor=000000" alt="Total" />
-</p>
-
 </div>
 
----
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                      TECH STACK                                -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-## 🐱 **💬 CONNECT WITH ME 💬** 🐈‍⬛
+### `⚡ tech stack`
 
-<div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
-  
-  <a href="https://www.linkedin.com/in/carter-tierney/">
-    <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  
-  <a href="mailto:cartertierney0@gmail.com">
-    <img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  
-</div>
+<br/>
+
+<img src="https://skillicons.dev/icons?i=python,java,c,cpp,js,ts,react,html,css&theme=dark" />
+<br/>
+<img src="https://skillicons.dev/icons?i=nodejs,flask,django,git,github,linux,docker,vscode,postgres&theme=dark" />
 
 </div>
 
----
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                     GITHUB STATS                               -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
 
 <div align="center">
-  
-  <!-- Footer with animated text -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=2000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=Thanks+for+visiting!+%F0%9F%98%80+%F0%9F%90%B1;Keep+grinding!+%F0%9F%8F%8B%EF%B8%8F+%F0%9F%90%88;Code%2C%20Lift%2C%20Game%2C%20Repeat+%F0%9F%90%BE" alt="Footer" />
-  
-  
+
+### `📊 github stats`
+
+<br/>
+
+<a href="https://github.com/ctsc">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=ctsc&show_icons=true&theme=github_dark&bg_color=0d1117&hide_border=true&icon_color=58a6ff&title_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff" alt="GitHub Stats" />
+</a>
+<a href="https://github.com/ctsc">
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ctsc&layout=compact&theme=github_dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&text_color=c9d1d9&langs_count=8" alt="Top Languages" />
+</a>
+
+<br/><br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com?user=ctsc&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="GitHub Streak" />
+
+<br/><br/>
+
+<!-- Contribution Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ctsc&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&area_color=58a6ff&hide_border=true" alt="Contribution Graph" width="95%" />
+
+<br/><br/>
+
+<!-- Contribution Snake -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ctsc/ctsc/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ctsc/ctsc/output/github-contribution-grid-snake.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/ctsc/ctsc/output/github-contribution-grid-snake-dark.svg" width="95%" />
+</picture>
+
+</div>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                    POWERLIFTING                                -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+### `🏋️ powerlifting PRs`
+
+<br/>
+
+<img src="penguin-pengu.webp" width="100" />
+
+<br/><br/>
+
+| Lift | PR | Bar |
+|:---:|:---:|:---:|
+| **Squat** | `560 lbs` | ![](https://progress-bar.xyz/93/?width=200&color=58a6ff) |
+| **Bench** | `355 lbs` | ![](https://progress-bar.xyz/71/?width=200&color=58a6ff) |
+| **Deadlift** | `655 lbs` | ![](https://progress-bar.xyz/98/?width=200&color=58a6ff) |
+| **Total** | **`1,570 lbs`** | ![](https://img.shields.io/badge/elite-58a6ff?style=flat-square) |
+
+<sub>goal: strongest developer who ships code</sub>
+
+</div>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                   DAILY QUOTE                                  -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+### `💭 daily quote`
+
+<br/>
+
+<img src="fun.gif" width="140" />
+
+<br/><br/>
+
+> <em id="daily-quote">"The only way to do great work is to love what you do." - Steve Jobs</em>
+
+</div>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                      VIBES                                     -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+### `🎯 currently`
+
+<br/>
+
+```
+ 📚  studying          →  M.S. Computer Science @ GSU
+ 🏋️  lifting           →  chasing a 1,600+ lb total
+ 📺  watching           →  whatever's new on Crunchyroll
+ 🏈  rooting for        →  the Jets (pain is temporary)
+ 🎮  grinding           →  ranked lobbies
+ 💻  building           →  things that ship
+```
+
+</div>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                      FOOTER                                    -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=120&section=footer" width="100%" />
+
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=16&duration=2500&pause=1000&color=8B949E&center=true&vCenter=true&width=500&lines=code.+lift.+ship.+repeat.;thanks+for+stopping+by+%F0%9F%91%8B" alt="Footer" />
+
 </div>
