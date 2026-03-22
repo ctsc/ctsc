@@ -140,14 +140,12 @@ const carter = {
 
 <br/><br/>
 
-| Lift | PR | Bar |
-|:---:|:---:|:---:|
-| **Squat** | `560 lbs` | ![](https://progress-bar.xyz/93/?width=200&color=58a6ff) |
-| **Bench** | `355 lbs` | ![](https://progress-bar.xyz/71/?width=200&color=58a6ff) |
-| **Deadlift** | `655 lbs` | ![](https://progress-bar.xyz/98/?width=200&color=58a6ff) |
-| **Total** | **`1,570 lbs`** | ![](https://img.shields.io/badge/elite-58a6ff?style=flat-square) |
-
-<sub>goal: strongest developer who ships code</sub>
+| Lift | PR |
+|:---:|:---:|
+| **Squat** | `560 lbs` |
+| **Bench** | `355 lbs` |
+| **Deadlift** | `655 lbs` |
+| **Total** | **`1,570 lbs`** |
 
 </div>
 
@@ -168,29 +166,6 @@ const carter = {
 <br/><br/>
 
 > <em id="daily-quote">"Code is like humor. When you have to explain it, it's bad." - Cory House</em>
-
-</div>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                      VIBES                                     -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-### `🎯 currently`
-
-<br/>
-
-```
- 📚  studying          →  M.S. Computer Science @ GSU
- 🏋️  lifting           →  chasing a 1,600+ lb total
- 📺  watching           →  whatever's new on Crunchyroll
- 🏈  rooting for        →  the Jets (pain is temporary)
- 🎮  grinding           →  ranked lobbies
- 💻  building           →  things that ship
-```
 
 </div>
 
