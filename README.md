@@ -36,7 +36,8 @@
 <table align="center">
 <tr>
 <td align="left">
-<pre>
+
+```js
 // carter.config.js
 
 const carter = {
@@ -51,7 +52,8 @@ const carter = {
         goal:           "Strongest SWE in the World"
     }
 };
-</pre>
+```
+
 </td>
 </tr>
 </table>
