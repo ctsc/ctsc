@@ -1,18 +1,22 @@
 <!-- Last updated: 2026-07-05 18:12:38 UTC -->
 
+<table width="100%">
+<tr>
+<td align="center" bgcolor="#e8f5e9">
+
 <div align="center">
 
 <!-- HEADER -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=240&section=header&text=Carter%20Tierney&fontSize=58&fontColor=58a6ff&fontAlignY=32&desc=CS%20Grad%20Student%20%7C%20Developer%20%7C%20Powerlifter&descSize=18&descColor=8b949e&descAlignY=58&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:e8f5e9,50:c8e6c9,100:a5d6a7&height=260&section=header&text=Carter%20Tierney&fontSize=60&fontColor=0a0a0a&fontAlignY=30&desc=CS%20Grad%20Student%20%7C%20Developer%20%7C%20Powerlifter&descSize=18&descColor=1a1a1a&descAlignY=58&animation=fadeIn" width="100%" />
 
 <br/>
 
-<img src="welcome-fire.gif" width="48" alt="welcome" />
+<img src="welcome-fire.gif" width="144" alt="welcome" />
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=620&height=80&lines=%24+whoami;carter+%7C+grad+student+%7C+lifter+%7C+dev" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&duration=3000&pause=1000&color=0A0A0A&center=true&vCenter=true&multiline=true&repeat=true&width=620&height=80&lines=%24+whoami;carter+%7C+grad+student+%7C+lifter+%7C+dev" alt="Typing SVG" />
 
 <br/><br/>
 
@@ -23,9 +27,9 @@
   <img src="https://img.shields.io/badge/Email-cartertierney0-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
 <a href="https://github.com/ctsc">
-  <img src="https://img.shields.io/badge/GitHub-ctsc-161b22?style=for-the-badge&logo=github&logoColor=58a6ff" alt="GitHub" />
+  <img src="https://img.shields.io/badge/GitHub-ctsc-0a0a0a?style=for-the-badge&logo=github&logoColor=e8f5e9" alt="GitHub" />
 </a>
-<img src="https://komarev.com/ghpvc/?username=ctsc&style=for-the-badge&color=161b22&label=PROFILE+VIEWS" alt="Profile views" />
+<img src="https://komarev.com/ghpvc/?username=ctsc&style=for-the-badge&color=a5d6a7&label=PROFILE+VIEWS" alt="Profile views" />
 
 </div>
 
@@ -55,21 +59,21 @@ const carter = {
 <tr>
 <td width="33%" align="center">
 
-<img src="code.gif" width="150" alt="writing code" />
+<img src="code.gif" width="280" alt="writing code" />
 <br/><br/>
 <strong>writing code</strong>
 
 </td>
 <td width="33%" align="center">
 
-<img src="website.gif" width="150" alt="shipping projects" />
+<img src="website.gif" width="280" alt="shipping projects" />
 <br/><br/>
 <strong>shipping projects</strong>
 
 </td>
 <td width="33%" align="center">
 
-<img src="giphy.webp" width="150" alt="building vibes" />
+<img src="giphy.webp" width="280" alt="building vibes" />
 <br/><br/>
 <strong>building vibes</strong>
 
@@ -88,9 +92,9 @@ const carter = {
 
 <br/>
 
-<img src="https://skillicons.dev/icons?i=python,java,c,cpp,js,ts,react,html,css&theme=dark" alt="Languages and frontend" />
+<img src="https://skillicons.dev/icons?i=python,java,c,cpp,js,ts,react,html,css&theme=light" alt="Languages and frontend" />
 <br/>
-<img src="https://skillicons.dev/icons?i=nodejs,flask,django,git,github,linux,docker,vscode,postgres&theme=dark" alt="Tools and backend" />
+<img src="https://skillicons.dev/icons?i=nodejs,flask,django,git,github,linux,docker,vscode,postgres&theme=light" alt="Tools and backend" />
 
 </div>
 
@@ -104,28 +108,20 @@ const carter = {
 
 <br/>
 
-<a href="https://github.com/ctsc">
-  <img height="195" src="https://github-readme-stats.vercel.app/api?username=ctsc&show_icons=true&theme=github_dark&bg_color=0d1117&hide_border=true&icon_color=58a6ff&title_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-</a>
-<a href="https://github.com/ctsc">
-  <img height="195" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ctsc&layout=compact&theme=github_dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&text_color=c9d1d9&langs_count=8" alt="Top Languages" />
-</a>
+<img height="195" src="./assets/github-stats.svg" alt="GitHub Stats" />
+<img height="195" src="./assets/top-langs.svg" alt="Top Languages" />
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=ctsc&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com?user=ctsc&theme=default&hide_border=true&background=e8f5e9&ring=0a0a0a&fire=0a0a0a&currStreakLabel=0a0a0a" alt="GitHub Streak" />
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ctsc&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&area_color=58a6ff&hide_border=true" alt="Contribution Graph" width="95%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ctsc&bg_color=e8f5e9&color=0a0a0a&line=0a0a0a&point=1a1a1a&area=true&area_color=a5d6a7&hide_border=true" alt="Contribution Graph" width="95%" />
 
 <br/><br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ctsc/ctsc/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ctsc/ctsc/output/github-contribution-grid-snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/ctsc/ctsc/output/github-contribution-grid-snake-dark.svg" width="95%" />
-</picture>
+<img src="https://raw.githubusercontent.com/ctsc/ctsc/gh-pages/output/github-contribution-grid-snake-dark.svg" alt="" width="95%" />
 
 </div>
 
@@ -139,19 +135,20 @@ const carter = {
 
 <br/>
 
-<img src="penguin-pengu.webp" width="90" alt="penguin" />
-<img src="ie.jpg" width="90" alt="lifting" />
+<img src="ie.jpg" width="270" alt="lifting" />
 
 <br/><br/>
 
 | Lift | PR | Progress |
 |:---:|:---:|:---:|
-| **Squat** | `560 lbs` | ![](https://progress-bar.xyz/93/?width=220&color=58a6ff) |
-| **Bench** | `355 lbs` | ![](https://progress-bar.xyz/71/?width=220&color=58a6ff) |
-| **Deadlift** | `655 lbs` | ![](https://progress-bar.xyz/98/?width=220&color=58a6ff) |
-| **Total** | **`1,570 lbs`** | ![](https://img.shields.io/badge/elite-58a6ff?style=flat-square) |
+| **Squat** | `560 lbs` | ![](https://progress-bar.xyz/93/?width=220&color=0a0a0a) |
+| **Bench** | `355 lbs` | ![](https://progress-bar.xyz/71/?width=220&color=0a0a0a) |
+| **Deadlift** | `655 lbs` | ![](https://progress-bar.xyz/98/?width=220&color=0a0a0a) |
+| **Total** | **`1,570 lbs`** | ![](https://img.shields.io/badge/elite-0a0a0a?style=flat-square) |
 
-<sub>goal: strongest developer who ships code</sub>
+<br/>
+
+<h1><strong>goal: strongest developer who ships code</strong></h1>
 
 </div>
 
@@ -165,11 +162,11 @@ const carter = {
 
 <br/>
 
-<img src="fun.gif" width="140" alt="fun" />
+<h2><em id="daily-quote">"Code is like humor. When you have to explain it, it's bad." - Cory House</em></h2>
 
-<br/><br/>
+<br/>
 
-> <em id="daily-quote">"Code is like humor. When you have to explain it, it's bad." - Cory House</em>
+<img src="fun.gif" width="350" alt="fun" />
 
 </div>
 
@@ -200,10 +197,14 @@ const carter = {
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=120&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:e8f5e9,50:c8e6c9,100:a5d6a7&height=120&section=footer" width="100%" />
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2500&pause=1000&color=8B949E&center=true&vCenter=true&width=520&lines=code.+lift.+ship.+repeat.;thanks+for+stopping+by+%F0%9F%91%8B" alt="Footer" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2500&pause=1000&color=0A0A0A&center=true&vCenter=true&width=520&lines=code.+lift.+ship.+repeat.;thanks+for+stopping+by+%F0%9F%91%8B" alt="Footer" />
 
 </div>
+
+</td>
+</tr>
+</table>

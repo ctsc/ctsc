@@ -63,7 +63,7 @@ jobs:
                   daily_quote = '"The only way to do great work is to love what you do." - Steve Jobs'
           except Exception as e:
               print(f"Error fetching quote: {e}")
-              daily_quote = '"Code is like humor. When you have to explain it, it\'s bad." - Cory House'
+              daily_quote = '"Code is like humor. When you have to explain it, its bad." - Cory House'
           
           # Update daily quote in README
           quote_pattern = r'<em id="daily-quote">.*?</em>'
@@ -95,18 +95,17 @@ jobs:
           with open(readme_path, 'w', encoding='utf-8') as f:
               f.write(readme_content)
           
-          print(f"✅ README updated at {current_time}")
-          print(f"✅ Daily quote updated: {daily_quote[:50]}...")
+          print(f"README updated at {current_time}")
+          print(f"Daily quote updated: {daily_quote[:50]}...")
           EOF
-          
-      - name: Commit and push changes
+
+      - name: Generate stats cards
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add README.md
-          git diff --staged --quiet || (git commit -m "🔄 Auto-update GitHub stats [skip ci]" && git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main)
+          mkdir -p assets
+          curl -sL "https://github-readme-stats-fast.vercel.app/api?username=${GITHUB_USERNAME}&show_icons=true&theme=transparent&bg_color=e8f5e9&hide_border=true&title_color=0a0a0a&text_color=1a1a1a&icon_color=0a0a0a&include_all_commits=true" -o assets/github-stats.svg
+          curl -sL "https://github-readme-stats-fast.vercel.app/api/top-langs/?username=${GITHUB_USERNAME}&layout=compact&theme=transparent&bg_color=e8f5e9&hide_border=true&title_color=0a0a0a&text_color=1a1a1a&langs_count=8" -o assets/top-langs.svg
           
       - name: Generate contribution snake
         uses: Platane/snk@v3
@@ -116,6 +115,19 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
           
+      - name: Copy snake to assets
+        run: |
+          cp dist/github-contribution-grid-snake-dark.svg assets/contribution-snake.svg
+          
+      - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md assets/
+          git diff --staged --quiet || (git commit -m "Auto-update GitHub stats [skip ci]" && git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main)
+          
       - name: Push snake to output branch
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
@@ -124,5 +136,3 @@ jobs:
           publish_dir: ./dist
           destination_dir: output
           keep_files: false
-
-
