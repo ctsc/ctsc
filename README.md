@@ -12,11 +12,19 @@
 
 <br/>
 
+<table align="center">
+<tr>
+<td align="center" bgcolor="#e8f5e9">
+
 <img src="welcome-fire.gif" width="120" alt="welcome" />
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=0A0A0A&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=70&lines=%24+whoami;carter+%7C+grad+student+%7C+lifter+%7C+dev" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=0A0A0A&background=E8F5E9&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=70&lines=%24+whoami;carter+%7C+grad+student+%7C+lifter+%7C+dev" alt="Typing SVG" />
+
+</td>
+</tr>
+</table>
 
 <br/><br/>
 
@@ -92,8 +100,6 @@ const carter = {
 
 <h3><code>📊 github stats</code></h3>
 
-<img width="440" src="./assets/github-stats.svg" alt="GitHub Stats" />
-<br/><br/>
 <img width="440" src="./assets/top-langs.svg" alt="Top Languages" />
 <br/><br/>
 <img width="440" src="https://streak-stats.demolab.com?user=ctsc&theme=default&hide_border=true&background=e8f5e9&ring=0a0a0a&fire=0a0a0a&currStreakLabel=0a0a0a" alt="GitHub Streak" />
@@ -158,7 +164,15 @@ const carter = {
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2500&pause=1000&color=0A0A0A&center=true&vCenter=true&width=480&lines=code.+lift.+ship.+repeat.;thanks+for+stopping+by+%F0%9F%91%8B" alt="Footer" />
+<table align="center">
+<tr>
+<td align="center" bgcolor="#e8f5e9">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2500&pause=1000&color=0A0A0A&background=E8F5E9&center=true&vCenter=true&width=480&lines=code.+lift.+ship.+repeat.;thanks+for+stopping+by+%F0%9F%91%8B" alt="Footer" />
+
+</td>
+</tr>
+</table>
 
 <br/>
 
