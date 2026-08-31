@@ -3,7 +3,6 @@
 <div align="center">
 
 <h1>Carter Tierney</h1>
-<p><sub>Developer</sub></p>
 
 <br/>
 
