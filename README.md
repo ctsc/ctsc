@@ -2,12 +2,10 @@
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:21262d&height=200&section=header&text=Carter%20Tierney&fontSize=56&fontColor=e6edf3&fontAlignY=38&desc=Developer&descSize=16&descColor=8b949e&descAlignY=58&animation=fadeIn" />
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:f6f8fa,50:eaeef2,100:d0d7de&height=200&section=header&text=Carter%20Tierney&fontSize=56&fontColor=24292f&fontAlignY=38&desc=Developer&descSize=16&descColor=57606a&descAlignY=58&animation=fadeIn" width="100%" alt="Carter Tierney" />
-</picture>
+<h1>Carter Tierney</h1>
+<p><sub>Developer</sub></p>
 
-<br/><br/>
+<br/>
 
 <a href="https://www.linkedin.com/in/carter-tierney/">
   <img src="https://img.shields.io/badge/LinkedIn-carter--tierney-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -21,6 +19,10 @@
 <img src="https://komarev.com/ghpvc/?username=ctsc&style=for-the-badge&color=6e7781&label=PROFILE+VIEWS" alt="Profile views" />
 
 <br/><br/>
+
+<table align="center">
+<tr>
+<td align="left">
 
 ```js
 // carter.config.js
@@ -38,6 +40,10 @@ const carter = {
     }
 };
 ```
+
+</td>
+</tr>
+</table>
 
 <br/>
 
@@ -65,15 +71,9 @@ const carter = {
 
 <h3><code>tech stack</code></h3>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,java,c,cpp,js,ts,react,html,css&theme=dark" />
-  <img src="https://skillicons.dev/icons?i=python,java,c,cpp,js,ts,react,html,css&theme=light" alt="Languages and frontend" />
-</picture>
+<img src="https://skillicons.dev/icons?i=python,java,c,cpp,js,ts,react,html,css&theme=light" alt="Languages and frontend" />
 <br/>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs,flask,django,git,github,linux,docker,vscode,postgres&theme=dark" />
-  <img src="https://skillicons.dev/icons?i=nodejs,flask,django,git,github,linux,docker,vscode,postgres&theme=light" alt="Tools and backend" />
-</picture>
+<img src="https://skillicons.dev/icons?i=nodejs,flask,django,git,github,linux,docker,vscode,postgres&theme=light" alt="Tools and backend" />
 
 <br/><br/>
 
@@ -131,15 +131,8 @@ const carter = {
 <br/><br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:21262d&height=80&section=footer" />
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:f6f8fa,50:eaeef2,100:d0d7de&height=80&section=footer" width="100%" alt="" />
-</picture>
-
-<br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2500&pause=1000&color=E6EDF3&background=0D1117&center=true&vCenter=true&width=480&lines=code.+lift.+ship.+repeat.;thanks+for+stopping+by+%F0%9F%91%8B" />
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2500&pause=1000&color=24292F&background=FFFFFF&center=true&vCenter=true&width=480&lines=code.+lift.+ship.+repeat.;thanks+for+stopping+by+%F0%9F%91%8B" alt="code lift ship repeat" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2500&pause=1000&color=E6EDF3&background=00000000&center=true&vCenter=true&width=480&lines=code.+lift.+ship.+repeat.;thanks+for+stopping+by+%F0%9F%91%8B" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2500&pause=1000&color=24292F&background=00000000&center=true&vCenter=true&width=480&lines=code.+lift.+ship.+repeat.;thanks+for+stopping+by+%F0%9F%91%8B" alt="code lift ship repeat" />
 </picture>
 
 <br/>
