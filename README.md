@@ -2,6 +2,13 @@
 
 <div align="center">
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ctsc/ctsc/gh-pages/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/ctsc/ctsc/gh-pages/output/github-contribution-grid-snake.svg" alt="Contribution snake" width="100%" />
+</picture>
+
+<br/>
+
 <h1>Carter Tierney</h1>
 
 <br/>
@@ -30,6 +37,7 @@ const carter = {
     location:    "Atlanta, GA",
     school:      "Georgia State University",
     degree:      "M.S. CS | B.S. CS",
+    hackathonsWon: 3,
     interests:   ["building things", "breaking PRs (in the gym only)", "watching anime"],
     funFacts: {
         siblings:       5,
@@ -93,31 +101,6 @@ const carter = {
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=ctsc&bg_color=ffffff&color=24292f&line=57606a&point=24292f&area=true&area_color=eaeef2&hide_border=true" alt="Contribution Graph" width="100%" />
 </picture>
 <br/><br/>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ctsc/ctsc/gh-pages/output/github-contribution-grid-snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/ctsc/ctsc/gh-pages/output/github-contribution-grid-snake.svg" alt="Contribution snake" width="100%" />
-</picture>
-
-<br/><br/>
-
-<h3><code>powerlifting PRs</code></h3>
-
-<img src="ie.jpg" width="220" alt="lifting" />
-
-<br/><br/>
-
-| Lift | PR |
-| :---: | :---: |
-| **Squat** | `560 lbs` |
-| **Bench** | `355 lbs` |
-| **Deadlift** | `655 lbs` |
-| **Total** | `1,570 lbs` |
-
-<br/>
-
-<h2><strong>goal: strongest developer who ships code</strong></h2>
-
-<br/>
 
 <h3><code>daily quote</code></h3>
 
