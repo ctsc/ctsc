@@ -86,10 +86,6 @@ const carter = {
 
 <h3><code>github stats</code></h3>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/top-langs-dark.svg" />
-  <img width="440" src="./assets/top-langs.svg" alt="Top Languages" />
-</picture>
 <br/><br/>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=ctsc&theme=github-dark&hide_border=true" />
