@@ -74,15 +74,6 @@ const carter = {
 </tr>
 </table>
 
-<br/>
-
-<h3><code>tech stack</code></h3>
-
-<img src="https://skillicons.dev/icons?i=python,java,c,cpp,js,ts,react,html,css&theme=light" alt="Languages and frontend" />
-<br/>
-<img src="https://skillicons.dev/icons?i=nodejs,flask,django,git,github,linux,docker,vscode,postgres&theme=light" alt="Tools and backend" />
-
-<br/><br/>
 
 <h3><code>github stats</code></h3>
 
